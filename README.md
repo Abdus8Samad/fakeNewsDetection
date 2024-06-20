@@ -16,8 +16,8 @@ All of us are CS undergrads at `NSUT Delhi`:
 
 ## Goals of the Project
 This project aims to classify news articles or statements as fake or real. The steps include:
-1. Data Preprocessing: Splitting the data into training, testing, and validation sets (70:15:15).
-2. Running Decision Trees with varying depths (4 to 20) using GINI Gain and Entropy criteria.
+1. Data Preprocessing: Splitting the data into training, testing, and validation sets (80:10:10).
+2. Running Decision Trees with varying depths (10 to 1000) using GINI Gain and Entropy criteria.
 3. Implementing a Random Forest by ensembling weak decision tree classifiers.
 4. Applying Adaboost to improve the performance of Decision Trees.
 5. Using Logistic Regression and SVM for classification.
@@ -26,8 +26,6 @@ This project aims to classify news articles or statements as fake or real. The s
 ### File Structure  
 - `FakeNewsDetectionModel.ipynb`: Jupyter Notebook with ML Model  
 - `Validation_data.tsv`, `test_data.tsv`, `train_data.tsv`: Dataset files
-- `Project Report`: Detailed project report
-- `Project Presentation.pptx`: Project presentation
 
 ## 1. Introduction to the Problem Statement
 Technology has revolutionized information access, but it has also enabled the spread of fake news. This misinformation, often biased and politically motivated, can lead to significant societal issues. Our project focuses on analyzing news from social media, classifying it as fake or real using NLP and various Machine Learning models. By preprocessing the data and training multiple models, we aim to improve accuracy in fake news detection.
